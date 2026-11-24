@@ -1,4 +1,4 @@
-// Public release: three playable games; Unity players will be embedded later.
+// Public players: three C++ browser games and RollerBall360 hosted by itch.io.
 window.PORTFOLIO_DATA = {
   "games": [
     {
@@ -42,16 +42,17 @@ window.PORTFOLIO_DATA = {
       "title": "RollerBall360",
       "group": "mini-games",
       "kind": "Unity · Mobile",
-      "playerRatio": "540 / 1100",
+      "playerRatio": "540 / 1120",
       "portrait": true,
-      "inputHint": "A / D keyboard steering, or mouse/touch Pad controls.",
-      "inputHintZh": "使用 A / D 键盘转向，或鼠标、触屏 Pad 操作。",
-      "playerHint": "Use Mute and Fullscreen above the game; Esc exits fullscreen. The game starts in Pad mode; use its pause button for game options.",
-      "playerHintZh": "游戏上方提供静音与全屏按钮，Esc 退出全屏。游戏默认使用 Pad 模式，暂停按钮可打开游戏选项。",
+      "inputHint": "PC: A / D or mouse Pad. Phone: portrait touch Pad. Hosted by itch.io.",
+      "inputHintZh": "电脑：A / D 或鼠标 Pad。手机：竖屏触控 Pad。游戏由 itch.io 托管。",
+      "playerHint": "The game runs here using itch.io hosting. Mute, Fullscreen and Restart are above the game; Esc exits fullscreen on PC. Pad is the default control mode. Phone performance depends on the device.",
+      "playerHintZh": "游戏由 itch.io 托管，可直接在此游玩。游戏上方提供 Mute、Fullscreen 与 Restart；电脑按 Esc 退出全屏。默认使用 Pad 操作，手机表现取决于设备。",
       "overview": "An endless mobile arcade game inside a winding tunnel. Steer around its interior, avoid obstacles or tap them to break them, and survive as the tunnel speeds up. Your score increases with survival time.",
       "overviewZh": "在弯曲隧道中不断前进的手机街机游戏。沿隧道内壁转向，避开障碍物或点击将其击碎，在逐渐加速的隧道中尽可能生存。分数随生存时间增加。",
       "controls": "Click START on the title screen. Hold A / D to steer, or drag the on-screen Pad left/right with the mouse or touch. Click/tap obstacles to break them. Use the in-game pause button for pause, retry, and returning home. Pad is the default browser control mode.",
-      "controlsZh": "在标题画面点击 START。按住 A / D 转向，或使用鼠标、触屏左右拖动 Pad。点击障碍物可将其击碎。游戏内暂停按钮可暂停、重试或返回主页。浏览器版本默认使用 Pad 模式。"
+      "controlsZh": "在标题画面点击 START。按住 A / D 转向，或使用鼠标、触屏左右拖动 Pad。点击障碍物可将其击碎。游戏内暂停按钮可暂停、重试或返回主页。浏览器版本默认使用 Pad 模式。",
+      "playUrl": "https://itch.io/embed-upload/20796720?color=333333"
     },
     {
       "id": "yunyun-number-wizard",

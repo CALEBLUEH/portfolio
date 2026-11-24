@@ -3,8 +3,9 @@
 Website: https://caleblueh.github.io/portfolio/
 
 This repository is the editable source for the public portfolio. The current
-release includes C++ Snake Game, Tic Tac Toe and OpenGL Space Shooter. Unity
-project pages are placeholders until their itch.io players are connected.
+release includes C++ Snake Game, Tic Tac Toe, OpenGL Space Shooter and the
+itch.io-hosted RollerBall360 player. Other Unity project pages are placeholders
+until their itch.io players are connected.
 Visual Production is intentionally empty for now.
 
 ## Updating with GitHub Desktop
@@ -66,3 +67,19 @@ Documentation:
 No external assets or libraries were downloaded for this deployment. Existing
 browser game artwork/audio and resumes were copied from the user's tested local
 portfolio. This repository does not grant third-party asset reuse rights.
+
+## RollerBall360 on itch.io
+
+Game page: https://caleb-lueh.itch.io/rollerball360
+
+The portfolio loads the supported Game Embed iframe from itch.io. The Unity
+files stay on itch.io and are not stored in this repository. The actual game
+canvas stays 9:16, with extra space for its toolbar, controls note and itch.io
+footer. Desktop keyboard/mouse and the touch Pad remain available. A physical
+phone check is still required before claiming device-specific compatibility.
+
+For game changes, rebuild Unity Web and update the existing itch.io project.
+Verify the embed URL after replacing the upload. If the upload ID changes,
+update RollerBall360 playUrl in site/site-data.js and push this repository.
+Website text/layout changes only need the normal GitHub Desktop commit/push.
+No Unity rebuild is needed for those changes.
