@@ -37,7 +37,7 @@
     const heading=$('h1');document.title=(path==='/'?'Portfolio':heading?.textContent||'Portfolio')+' | Lueh Yi Hong';
     if(focus) {window.scrollTo({top:0,behavior:'instant'});$('#main').focus({preventScroll:true});}
     const work=new URLSearchParams(location.hash.split('?')[1]||'').get('work');if(path==='/visual'&&work)requestAnimationFrame(()=>document.getElementById('work-'+work)?.scrollIntoView({behavior:'instant'}));
-    $('#launch-game')?.addEventListener('click',e=>{const frame=document.createElement('iframe');frame.src=e.currentTarget.dataset.url;frame.title=heading.textContent+' game';frame.allow='fullscreen; gamepad; autoplay';frame.allowFullscreen=true;$('#game-frame').replaceChildren(frame);$('#launch-panel').remove();});
+    $('#launch-game')?.addEventListener('click',e=>{const frame=document.createElement('iframe');frame.src=e.currentTarget.dataset.url;frame.title=heading.textContent+' game';frame.allow='fullscreen; gamepad; autoplay';const selectedGame=data.games.find(g=>g.playUrl===e.currentTarget.dataset.url);if(selectedGame?.motionSensors){const origins='https://itch.io https://html-classic.itch.zone https://html.itch.zone';frame.allow+='; accelerometer '+origins+'; gyroscope '+origins;}frame.allowFullscreen=true;$('#game-frame').replaceChildren(frame);$('#launch-panel').remove();});
   }
   $('.skip').addEventListener('click',e=>{e.preventDefault();$('#main').focus();$('#main').scrollIntoView({behavior:'instant'});});
   $('#language').addEventListener('click',()=>{language=language==='en'?'zh':'en';try{localStorage.setItem('lyh-language',language);}catch{}render();});

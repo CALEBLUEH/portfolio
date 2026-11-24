@@ -1,4 +1,3 @@
-// Public players: three C++ browser games and RollerBall360 hosted by itch.io.
 window.PORTFOLIO_DATA = {
   "games": [
     {
@@ -52,7 +51,8 @@ window.PORTFOLIO_DATA = {
       "overviewZh": "在弯曲隧道中不断前进的手机街机游戏。沿隧道内壁转向，避开障碍物或点击将其击碎，在逐渐加速的隧道中尽可能生存。分数随生存时间增加。",
       "controls": "Click START on the title screen. Hold A / D to steer, or drag the on-screen Pad left/right with the mouse or touch. Click/tap obstacles to break them. Use the in-game pause button for pause, retry, and returning home. Pad is the default browser control mode.",
       "controlsZh": "在标题画面点击 START。按住 A / D 转向，或使用鼠标、触屏左右拖动 Pad。点击障碍物可将其击碎。游戏内暂停按钮可暂停、重试或返回主页。浏览器版本默认使用 Pad 模式。",
-      "playUrl": "https://itch.io/embed-upload/20796720?color=333333"
+      "playUrl": "https://itch.io/embed-upload/20796720?color=333333",
+      "motionSensors": true
     },
     {
       "id": "yunyun-number-wizard",
