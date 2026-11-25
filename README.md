@@ -4,7 +4,7 @@ Website: https://caleblueh.github.io/portfolio/
 
 This repository is the editable source for the public portfolio. The current
 release includes C++ Snake Game, Tic Tac Toe, OpenGL Space Shooter and the
-itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure, The Assignment and Floor is Lava players. Other Unity pages are placeholders
+itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure, The Assignment, Floor is Lava and Defender of Independence Remake players. Other Unity pages are placeholders
 until their itch.io players are connected.
 Visual Production is intentionally empty for now.
 
@@ -204,3 +204,20 @@ To update gameplay, rebuild Unity Web and update this itch.io project. Verify
 the offered embed URL afterward; if the upload ID changes, update playUrl here
 and push the portfolio. The shared portfolio hold-Escape fullscreen controller
 also covers this game; direct itch.io fullscreen is controlled by itch.io.
+
+## Defender of Independence Remake on itch.io
+
+Game page: https://caleb-lueh.itch.io/defender-of-independence-remake
+
+Supported Game Embed: https://itch.io/embed-upload/20812372?color=333333
+Offered iframe: 1280 by 740. Actual game canvas: 16:9.
+Desktop keyboard and mouse required; first download is approximately 472 MB.
+
+The tested split-data loader, mouse-capture denial handling, audio/video mute
+support and credits MP4 are retained. The package payload and video hashes
+match the tested local build and source Web export. No raw Unity source,
+gameplay changes or rebuild were needed for publication. Large game files
+remain on itch.io. The shared portfolio hold-Escape controller covers this game.
+
+For later gameplay updates, rebuild and update the itch.io project, verify its
+offered Game Embed URL, and update playUrl here if the upload ID changes.

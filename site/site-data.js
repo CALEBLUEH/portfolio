@@ -124,19 +124,20 @@ window.PORTFOLIO_DATA = {
     },
     {
       "id": "defender-of-independence",
-      "title": "Defender of Independence",
+      "title": "Defender of Independence Remake",
       "group": "projects",
       "kind": "Unity · Educational Adventure",
-      "playerRatio": "1280 / 825",
+      "playerRatio": "1280 / 740",
       "unityAspect": "16:9",
       "inputHint": "Desktop keyboard and mouse required. Large game download: approximately 472 MB.",
       "inputHintZh": "需要电脑键盘与鼠标。游戏初次下载约 472 MB。",
-      "playerHint": "Mute, Fullscreen and Restart are above the game. Esc pauses and releases the mouse; it also exits fullscreen. Click the game to regain control. Restart returns to the menu without clearing saved progress.",
-      "playerHintZh": "游戏上方提供 Mute、Fullscreen 与 Restart。Esc 暂停并释放鼠标，也可退出全屏。点击游戏可重新启用操作。Restart 返回主菜单，不清除已保存进度。",
+      "playerHint": "Hosted on itch.io and playable here on desktop. Mute, Fullscreen and Restart are above the game. Tap Esc to pause and release the mouse; hold Esc for about 2 seconds to exit fullscreen when Keyboard Lock is supported and allowed. Click the game to regain control. Restart returns to the menu without clearing saved progress.",
+      "playerHintZh": "由 itch.io 托管，可在此使用电脑游玩。游戏上方提供 Mute、Fullscreen 与 Restart。短按 Esc 暂停并释放鼠标；支持并允许 Keyboard Lock 时，按住 Esc 约 2 秒退出全屏。点击游戏可重新启用操作。Restart 返回主菜单，不清除已保存进度。",
       "overview": "An educational adventure about the journey toward Malayan independence, combining first-person hostage rescue, negotiation and resource decisions, a timed speech-typing challenge, historical cutscenes and an interactive gallery.",
       "overviewZh": "以马来亚独立历程为主题的教育冒险游戏，结合第一人称人质救援、谈判与资源决策、限时演讲打字挑战、历史过场及互动展览馆。",
       "controls": "Use the mouse for menus and look/aim, and WASD to move. Level 1: hold Left Shift to walk more slowly, Space to jump, left click to fire, right click to toggle Manual/Auto fire, R to reload, C to interact. Level 2/Gallery: aim and press C to interact; use the on-screen dialogue/document choices. Space advances dialogue. Level 3: type the displayed phrases; Tab switches between speech and incident panels. Hold Space for three seconds to skip the typing tutorial or credits when prompted. Esc opens the pause menu, including the available Skip Cutscene/Skip Level actions. Follow each chapter’s instruction panel.",
-      "controlsZh": "鼠标操作菜单及环顾、瞄准，WASD 移动。Level 1：按住 Left Shift 慢走，Space 跳跃，鼠标左键射击，右键切换 Manual/Auto 射击模式，R 换弹，C 互动。Level 2 / Gallery：瞄准后按 C 互动，使用画面上的对话或文件选项。Space 推进对话。Level 3：输入显示的短句，Tab 在演讲与事件面板间切换。出现提示时按住 Space 三秒可跳过打字教程或片尾。Esc 打开暂停菜单，提供相应的 Skip Cutscene / Skip Level 操作。详细规则请参照各章节说明。"
+      "controlsZh": "鼠标操作菜单及环顾、瞄准，WASD 移动。Level 1：按住 Left Shift 慢走，Space 跳跃，鼠标左键射击，右键切换 Manual/Auto 射击模式，R 换弹，C 互动。Level 2 / Gallery：瞄准后按 C 互动，使用画面上的对话或文件选项。Space 推进对话。Level 3：输入显示的短句，Tab 在演讲与事件面板间切换。出现提示时按住 Space 三秒可跳过打字教程或片尾。Esc 打开暂停菜单，提供相应的 Skip Cutscene / Skip Level 操作。详细规则请参照各章节说明。",
+      "playUrl": "https://itch.io/embed-upload/20812372?color=333333"
     },
     {
       "id": "red-dissertation",
