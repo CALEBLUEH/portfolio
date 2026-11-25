@@ -76,16 +76,17 @@ window.PORTFOLIO_DATA = {
       "title": "Pixel Adventure",
       "group": "mini-games",
       "kind": "Unity · 2D Platformer · Individual",
-      "playerRatio": "1280 / 825",
+      "playerRatio": "1280 / 740",
       "unityAspect": "16:9",
       "inputHint": "Desktop keyboard and mouse recommended. Click the game to focus.",
       "inputHintZh": "建议使用电脑键盘与鼠标，点击游戏画面以启用操作。",
-      "playerHint": "Mute, Fullscreen and Restart are above the game. Esc exits fullscreen; the game also uses Esc for pause. Restart returns to the title screen.",
-      "playerHintZh": "游戏上方提供 Mute、Fullscreen 与 Restart。Esc 退出全屏，游戏也使用 Esc 暂停。Restart 返回标题画面。",
+      "playerHint": "Hosted on itch.io and playable here on desktop. Mute, Fullscreen and Restart are above the game. Esc exits fullscreen; the game also uses Esc for pause. Restart returns to the title screen.",
+      "playerHintZh": "由 itch.io 托管，可在此使用电脑游玩。游戏上方提供 Mute、Fullscreen 与 Restart。Esc 退出全屏，游戏也使用 Esc 暂停。Restart 返回标题画面。",
       "overview": "An individual 2D platformer project featuring wall movement, collectible abilities, checkpoints, dialogue and environmental challenges.",
       "overviewZh": "个人制作的 2D 平台游戏，包含墙面移动、可收集的能力、检查点、对话与环境挑战。",
       "controls": "Press Space on the title screen to start. Keyboard and mouse. A / D or arrow keys: move. Space: jump. W: interact / advance dialogue. Right mouse button near a wall: grab it. Left click: use the current ability, aiming with the mouse. F: toggle flight when available. I: inventory. Esc: pause.",
-      "controlsZh": "在标题画面按 Space 开始。键盘与鼠标操作。A / D 或方向键：移动。Space：跳跃。W：互动或推进对话。靠近墙壁时按住鼠标右键：抓墙。鼠标左键：朝鼠标方向使用当前能力。获得飞行能力后按 F 切换。I：物品栏。Esc：暂停。"
+      "controlsZh": "在标题画面按 Space 开始。键盘与鼠标操作。A / D 或方向键：移动。Space：跳跃。W：互动或推进对话。靠近墙壁时按住鼠标右键：抓墙。鼠标左键：朝鼠标方向使用当前能力。获得飞行能力后按 F 切换。I：物品栏。Esc：暂停。",
+      "playUrl": "https://itch.io/embed-upload/20810157?color=333333"
     },
     {
       "id": "the-assignment",

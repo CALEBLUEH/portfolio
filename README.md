@@ -4,7 +4,7 @@ Website: https://caleblueh.github.io/portfolio/
 
 This repository is the editable source for the public portfolio. The current
 release includes C++ Snake Game, Tic Tac Toe, OpenGL Space Shooter and the
-itch.io-hosted RollerBall360 and YunYun Number Wizard players. Other Unity pages are placeholders
+itch.io-hosted RollerBall360, YunYun Number Wizard and Pixel Adventure players. Other Unity pages are placeholders
 until their itch.io players are connected.
 Visual Production is intentionally empty for now.
 
@@ -109,3 +109,46 @@ RollerBall360 alone has motionSensors enabled in site-data.js. The website
 delegates accelerometer/gyroscope access to its itch.io frames. The Android
 Chrome tilt issue remains unresolved after the permission correction and is left for later at the user's request. Native Android and
 Web builds use different sensor paths.
+
+## Pixel Adventure on itch.io
+
+Game page: https://caleb-lueh.itch.io/pixel-adventure
+
+The supported Game Embed uses upload 20810157, with the offered 1280 by 740
+iframe dimensions. The game canvas remains 16:9 inside the responsive player.
+This game is intended for desktop keyboard and mouse; mobile support is off.
+The wrapper retains Mute, Fullscreen and Restart. The existing tested Web build
+was packaged without raw Unity source or gameplay changes.
+
+For a game update, rebuild Unity Web, replace the itch.io upload, verify the
+offered Game Embed URL, and update site/site-data.js if its upload ID changes.
+
+## How the hosting fits together
+
+- Raw Unity project: editable scripts, scenes, assets and project settings on
+  the author's computer. It is separate from this public repository.
+- Unity Web build: compiled game code, assets and browser loader exported from
+  Unity. This distributable build is uploaded to itch.io.
+- GitHub repository: version history and editable portfolio HTML, CSS,
+  JavaScript and public assets. GitHub Desktop synchronizes this repository.
+- GitHub Actions: publishes site/ after a push to main.
+- GitHub Pages: serves the published portfolio files over HTTPS.
+- itch.io: serves the Unity Web builds. The portfolio opens a supported iframe
+  player, so visitors stay on the portfolio while playing.
+- Visitor's browser: fetches the site from Pages and the embedded build from
+  itch.io, then runs the interface and gameplay on the visitor's own device.
+
+Static hosting serves saved files. JavaScript and WebAssembly can still make
+those files interactive. It does not provide a custom login database or a
+dedicated multiplayer game server. The hosting platforms supply the servers;
+the author's laptop does not need to stay online.
+
+The current portfolio uses index.html plus JavaScript hash routes such as
+#/games/pixel-adventure. To add a separate page, create site/about.html (for
+example), preview, commit and push; it would appear at /portfolio/about.html.
+Creating a file locally does not publish it until deployment completes.
+
+Reference documentation (no external artwork downloaded):
+- https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+- https://itch.io/docs/creators/html5
+- https://docs.unity.com/en-us/engine/6000.3/manual/platform-specific/webgl/building-distribution/building
