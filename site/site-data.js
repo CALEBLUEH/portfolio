@@ -161,16 +161,18 @@ window.PORTFOLIO_DATA = {
       "title": "NightLit",
       "group": "projects",
       "kind": "Unity · Mobile Puzzle",
-      "playerRatio": "540 / 1100",
+      "playerRatio": "540 / 980",
       "portrait": true,
-      "inputHint": "Mouse or touch. The opening story and tutorial run before the main menu.",
-      "inputHintZh": "鼠标或触屏操作；开场剧情与教程结束后进入主菜单。",
-      "playerHint": "Mute, Fullscreen and Restart are above the game. Hold Esc for about 2 seconds to exit fullscreen when Keyboard Lock is supported and allowed. Restart reloads the opening scene; use the in-game buttons to navigate.",
-      "playerHintZh": "游戏上方提供 Mute、Fullscreen 与 Restart。支持并允许 Keyboard Lock 时，按住 Esc 约 2 秒退出全屏。Restart 重新载入开场，请使用游戏内按钮切换场景。",
+      "inputHint": "Mouse or touch. Play in portrait orientation. The opening story and tutorial run before the main menu.",
+      "inputHintZh": "鼠标或触屏操作，建议竖屏游玩；开场剧情与教程结束后进入主菜单。",
+      "playerHint": "Hosted on itch.io. Tap tiles to rotate and use the on-screen buttons on a phone; mouse controls also work on a computer. Mute, Fullscreen and Restart are above the game. Hold Esc for about 2 seconds to exit fullscreen when Keyboard Lock is supported and allowed. Restart reloads the opening scene.",
+      "playerHintZh": "由 itch.io 托管。手机可点击方块旋转并操作画面按钮，电脑也支持鼠标。游戏上方提供 Mute、Fullscreen 与 Restart。支持并允许 Keyboard Lock 时，按住 Esc 约 2 秒退出全屏。Restart 重新载入开场。",
       "overview": "My first mobile game: a portrait puzzle game about connecting paths and launching fireworks. Rotate tiles, connect the board and use props in timed Classic Mode or the limited-rocket Strategy Mode, alongside character selection, upgrades and story scenes.",
       "overviewZh": "我的第一款手机游戏：以连接路线和发射烟花为主题的竖屏解谜游戏。旋转方块、连接棋盘并运用道具，挑战限时的 Classic Mode 或限制火箭数量的 Strategy Mode，结合角色选择、升级与剧情场景。",
       "controls": "Click the dialogue or press Space to advance the story; hold Esc to fast-forward where available. Use the menu buttons. Click/tap a tile to rotate its connections and form paths from the launchers. Classic Mode asks you to launch the required fireworks before time runs out; Strategy Mode asks you to clear the required tiles within its rocket limit. Follow the in-game dialogue/tutorial and use the on-screen navigation and prop controls.",
-      "controlsZh": "点击对话框或按 Space 推进剧情，可按住 Esc 快进相应对话。点击菜单按钮。点击方块旋转连接方向，从发射器连接路线。Classic Mode 要求在时间结束前完成指定烟花发射次数；Strategy Mode 要求在火箭数量限制内清除指定数量的方块。请跟随游戏内对话和教程，使用画面上的导航与道具按钮。"
+      "controlsZh": "点击对话框或按 Space 推进剧情，可按住 Esc 快进相应对话。点击菜单按钮。点击方块旋转连接方向，从发射器连接路线。Classic Mode 要求在时间结束前完成指定烟花发射次数；Strategy Mode 要求在火箭数量限制内清除指定数量的方块。请跟随游戏内对话和教程，使用画面上的导航与道具按钮。",
+      "playUrl": "https://itch.io/embed-upload/20813454?color=333333",
+      "unityAspect": "9:16"
     }
   ],
   "visuals": []

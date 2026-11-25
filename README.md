@@ -4,8 +4,7 @@ Website: https://caleblueh.github.io/portfolio/
 
 This repository is the editable source for the public portfolio. The current
 release includes C++ Snake Game, Tic Tac Toe, OpenGL Space Shooter and the
-itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure, The Assignment, Floor is Lava, Defender of Independence Remake and Red Dissertation players. Other Unity pages are placeholders
-until their itch.io players are connected.
+itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure, The Assignment, Floor is Lava, Defender of Independence Remake, Red Dissertation and NightLit players. All current game pages are playable.
 Visual Production is intentionally empty for now.
 
 ## Updating with GitHub Desktop
@@ -245,3 +244,28 @@ For later resume updates, replace site/assets/resume-en.pdf and resume-zh.pdf,
 refresh their version query in site.js (and site.js version in index.html),
 preview and push. Gameplay updates belong in the itch.io project; verify the
 offered Game Embed URL and update playUrl if its upload ID changes.
+
+## NightLit on itch.io
+
+Game page: https://caleb-lueh.itch.io/nightlit
+
+Supported Game Embed: https://itch.io/embed-upload/20813454?color=333333
+Offered iframe: 540 by 980. Actual game canvas: 9:16.
+Mobile-friendly mode enabled with portrait orientation; desktop mouse also works.
+The existing WebGL input fix handles touch when present and mouse otherwise,
+avoiding duplicate rotation from a touch and its synthesized mouse event.
+
+The package retains the tested split-data loader, mute and fullscreen controls.
+Runtime hashes match the local player and the decompressed original Web export.
+No raw project or scene changes and no rebuild were needed for publication.
+
+Both resume downloads now match the user's latest supplied final PDFs exactly,
+with a single portfolio hyperlink on the last page and no top duplicate.
+
+## Keeping the resume link current
+
+Keep the GitHub account/repository and portfolio URL stable. The same link opens
+the latest successfully deployed website, including future games and visual work.
+Edit site/, preview, commit and push main, then wait for Publish portfolio to pass.
+An existing browser tab may need a refresh. The downloaded PDF itself does not
+change when the website changes, but its link continues pointing to the website.
