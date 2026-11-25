@@ -4,7 +4,7 @@ Website: https://caleblueh.github.io/portfolio/
 
 This repository is the editable source for the public portfolio. The current
 release includes C++ Snake Game, Tic Tac Toe, OpenGL Space Shooter and the
-itch.io-hosted RollerBall360, YunYun Number Wizard and Pixel Adventure players. Other Unity pages are placeholders
+itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure and The Assignment players. Other Unity pages are placeholders
 until their itch.io players are connected.
 Visual Production is intentionally empty for now.
 
@@ -152,3 +152,36 @@ Reference documentation (no external artwork downloaded):
 - https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
 - https://itch.io/docs/creators/html5
 - https://docs.unity.com/en-us/engine/6000.3/manual/platform-specific/webgl/building-distribution/building
+
+## The Assignment on itch.io
+
+Game page: https://caleb-lueh.itch.io/the-assignment
+
+Supported Game Embed: https://itch.io/embed-upload/20811155?color=333333
+The offered iframe is 1280 by 740; the actual game stays 16:9. Desktop keyboard
+and mouse are required. The existing tested build includes StreamingAssets
+menu-background and credits MP4 files. No raw Unity source was published and
+no gameplay changes or Unity rebuild were needed for this publication.
+
+## Hold Escape to exit fullscreen
+
+The shared site/fullscreen.js runs in the outer portfolio document. All game
+pages provide a portfolio Fullscreen button above the player. Where supported
+and permitted, the controller reserves only Escape using Keyboard Lock, so a
+short press reaches the game and the browser's roughly two-second Escape hold
+exits fullscreen. The lock is released when fullscreen ends or the page closes.
+Existing game fullscreen buttons are also covered while embedded here.
+
+Keyboard Lock requires browser support, a secure context (HTTPS or localhost),
+and browser permission where requested. If unavailable or denied, the page
+reports that the normal single-Escape browser exit remains active. A web page
+cannot override this browser safety behavior with preventDefault alone.
+The direct itch.io page is controlled by itch.io, so use the portfolio for this
+shared behavior. F11 fullscreen is a separate browser mode.
+
+The local full portfolio has the same controller in dist/fullscreen.js,
+including standalone local game pages and the visual editor's outer document.
+The user confirmed short-Escape and long-Escape behavior across the currently
+published games during the local preview check on 2026-11-25.
+
+Reference: https://developer.chrome.com/docs/capabilities/web-apis/keyboard-lock

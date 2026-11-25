@@ -14,14 +14,14 @@
   }
   window.mountPortfolioGame = function({title,width,height,create}) {
     const shell=document.getElementById('game-shell');
-    shell.innerHTML=`<div class="toolbar" aria-label="Game controls"><span class="title"></span><button id="mute" type="button" aria-pressed="false">Mute</button><button id="fullscreen" type="button">Fullscreen</button><button id="restart" type="button">Restart</button><button id="pause" type="button" aria-pressed="false">Pause</button></div><div class="viewport"><canvas id="game" tabindex="0" aria-label="Game screen"></canvas></div><p class="game-note" id="game-note" role="status">Click the game to focus. Esc exits fullscreen.</p>`;
+    shell.innerHTML=`<div class="toolbar" aria-label="Game controls"><span class="title"></span><button id="mute" type="button" aria-pressed="false">Mute</button><button id="fullscreen" type="button">Fullscreen</button><button id="restart" type="button">Restart</button><button id="pause" type="button" aria-pressed="false">Pause</button></div><div class="viewport"><canvas id="game" tabindex="0" aria-label="Game screen"></canvas></div><p class="game-note" id="game-note" role="status">Click the game to focus. Hold Esc about 2 seconds to exit fullscreen when Keyboard Lock is allowed.</p>`;
     shell.querySelector('.title').textContent=title;
     const canvas=document.getElementById('game');canvas.width=width;canvas.height=height;canvas.setAttribute('aria-label',title+' game screen');
     const viewport=shell.querySelector('.viewport');
     const resize=()=>{const scale=Math.min(viewport.clientWidth/width,viewport.clientHeight/height);canvas.style.width=(width*scale)+'px';canvas.style.height=(height*scale)+'px';};
     new ResizeObserver(resize).observe(viewport);resize();
     const audio=new GameAudio(),keys={},note=document.getElementById('game-note'),pauseButton=document.getElementById('pause');
-    let paused=false,game,previous=0,frame=0,defaultNote='Click the game to focus. Esc exits fullscreen.';
+    let paused=false,game,previous=0,frame=0,defaultNote='Click the game to focus. Hold Esc about 2 seconds to exit fullscreen when Keyboard Lock is allowed.';
     const setNote=text=>{defaultNote=text;if(!paused)note.textContent=text;};
     function setPaused(value){paused=value;for(const key of Object.keys(keys))delete keys[key];audio.suspend(value);pauseButton.textContent=value?'Resume':'Pause';pauseButton.setAttribute('aria-pressed',String(value));note.textContent=value?'Paused. Click the game or Resume to continue.':defaultNote;}
     function focus(){canvas.focus({preventScroll:true});audio.unlock();if(paused)setPaused(false);}
