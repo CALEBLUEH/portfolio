@@ -4,7 +4,7 @@ Website: https://caleblueh.github.io/portfolio/
 
 This repository is the editable source for the public portfolio. The current
 release includes C++ Snake Game, Tic Tac Toe, OpenGL Space Shooter and the
-itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure, The Assignment, Floor is Lava and Defender of Independence Remake players. Other Unity pages are placeholders
+itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure, The Assignment, Floor is Lava, Defender of Independence Remake and Red Dissertation players. Other Unity pages are placeholders
 until their itch.io players are connected.
 Visual Production is intentionally empty for now.
 
@@ -221,3 +221,27 @@ remain on itch.io. The shared portfolio hold-Escape controller covers this game.
 
 For later gameplay updates, rebuild and update the itch.io project, verify its
 offered Game Embed URL, and update playUrl here if the upload ID changes.
+
+## Red Dissertation on itch.io
+
+Game page: https://caleb-lueh.itch.io/red-dissertation
+
+Supported Game Embed: https://itch.io/embed-upload/20812813?color=333333
+Offered iframe: 1280 by 740. Actual game canvas: 16:9.
+Desktop mouse recommended; game files are approximately 178 MB including
+character skill videos, which load as needed.
+
+The tested split-data loader, audio/video mute support and six MP4 files are
+retained. Package payload and media hashes match the tested local build and
+source Web export. No raw Unity source, gameplay changes or rebuild were
+needed. The shared fullscreen controller retains hold-Escape support.
+
+Both published resume PDFs were updated from the user's latest final PDFs.
+A clickable portfolio line was added below the first-page contact details;
+the existing final-page portfolio link and all other content were retained.
+Local copies were synced separately. Certificates are not published.
+
+For later resume updates, replace site/assets/resume-en.pdf and resume-zh.pdf,
+refresh their version query in site.js (and site.js version in index.html),
+preview and push. Gameplay updates belong in the itch.io project; verify the
+offered Game Embed URL and update playUrl if its upload ID changes.

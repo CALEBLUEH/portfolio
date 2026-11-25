@@ -144,16 +144,17 @@ window.PORTFOLIO_DATA = {
       "title": "Red Dissertation",
       "group": "projects",
       "kind": "Unity · Tactical Auto-Battler",
-      "playerRatio": "1280 / 825",
+      "playerRatio": "1280 / 740",
       "unityAspect": "16:9",
       "inputHint": "Desktop mouse recommended. Game files: approximately 178 MB; skill videos load as needed.",
       "inputHintZh": "建议使用电脑鼠标。游戏文件约 178 MB；技能影片按需载入。",
-      "playerHint": "Mute, Fullscreen and Restart are above the game. Hold Esc for about 2 seconds to exit fullscreen when Keyboard Lock is supported and allowed. Use the in-game pause and battle controls for gameplay options; Restart reloads the title screen.",
-      "playerHintZh": "游戏上方提供 Mute、Fullscreen 与 Restart。支持并允许 Keyboard Lock 时，按住 Esc 约 2 秒退出全屏。游戏内的暂停与战斗按钮可调整玩法选项；Restart 重新载入标题画面。",
+      "playerHint": "Hosted on itch.io and playable here on desktop. Mute, Fullscreen and Restart are above the game. Hold Esc for about 2 seconds to exit fullscreen when Keyboard Lock is supported and allowed. Use the in-game pause and battle controls for gameplay options; Restart reloads the title screen.",
+      "playerHintZh": "由 itch.io 托管，可在此使用电脑游玩。游戏上方提供 Mute、Fullscreen 与 Restart。支持并允许 Keyboard Lock 时，按住 Esc 约 2 秒退出全屏。游戏选项请使用游戏内的暂停与战斗按钮；Restart 重新载入标题画面。",
       "overview": "A squad-based tactical auto-battler. Prepare a team, arrange deployment and guide the squad through enemy waves, using character skills and tactical positioning across three stages.",
       "overviewZh": "一款以小队为核心的战术自动战斗游戏。准备队伍、调整部署，在三个关卡的敌人波次中运用角色技能与战术站位带领小队作战。",
       "controls": "Click the title screen to enter the lobby. Use the mouse to select stages, configure the squad and interact with the preparation/skill UI. In preparation, hold the right mouse button and drag to rotate the camera; use the wheel to zoom. Follow the on-screen deployment and skill-targeting prompts. Battle buttons provide pause, restart, skill-video toggle, battle-speed/auto controls and camera-height adjustment where available.",
-      "controlsZh": "点击标题画面进入大厅。使用鼠标选择关卡、配置小队，并操作准备与技能界面。在准备阶段按住鼠标右键拖动旋转镜头，滚轮缩放。按画面提示进行部署与技能瞄准。战斗按钮提供暂停、重试、技能动画开关、战斗速度或自动技能控制，以及相应的镜头高度调整。"
+      "controlsZh": "点击标题画面进入大厅。使用鼠标选择关卡、配置小队，并操作准备与技能界面。在准备阶段按住鼠标右键拖动旋转镜头，滚轮缩放。按画面提示进行部署与技能瞄准。战斗按钮提供暂停、重试、技能动画开关、战斗速度或自动技能控制，以及相应的镜头高度调整。",
+      "playUrl": "https://itch.io/embed-upload/20812813?color=333333"
     },
     {
       "id": "night-lit",
