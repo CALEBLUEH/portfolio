@@ -59,16 +59,17 @@ window.PORTFOLIO_DATA = {
       "title": "YunYun Number Wizard",
       "group": "mini-games",
       "kind": "Unity · Tutorial",
-      "playerRatio": "1280 / 825",
+      "playerRatio": "1280 / 845",
       "unityAspect": "16:9",
       "inputHint": "Mouse or touch: use the on-screen buttons.",
       "inputHintZh": "鼠标或触屏：点击画面中的按钮。",
-      "playerHint": "Use Fullscreen above the game; Esc exits fullscreen. This tutorial has no audio. Restart reloads the game, including after Exit.",
-      "playerHintZh": "使用游戏上方的 Fullscreen 按钮进入全屏，Esc 退出。本教程没有音效。Restart 可重新载入游戏，也可在 Exit 后重新开始。",
+      "playerHint": "The game runs here using itch.io hosting. Fullscreen and Restart are above the game; Esc exits fullscreen. This tutorial has no audio. Restart also works after Exit.",
+      "playerHintZh": "游戏由 itch.io 托管，可直接在此游玩。游戏上方提供 Fullscreen 与 Restart；按 Esc 退出全屏。本教程没有音效，Exit 后也可以使用 Restart 重新开始。",
       "overview": "A number-guessing tutorial game with an animated mascot. Think of a number from 0 to 100 and guide YunYun with Higher or Lower until the guess matches. Contradictory answers lead to a retry prompt.",
       "overviewZh": "带有动画吉祥物的猜数字教程游戏。心中想一个 0 到 100 的数字，通过 Higher 或 Lower 帮助 YunYun 缩小范围，猜中时点击 Confirm。回答出现矛盾时可重试。",
       "controls": "Click Start, read the instructions, then click Ready. Choose Higher if your number is larger than the guess, Lower if it is smaller, or Confirm when it matches. Back To Menu returns to the title screen. Drag the mascot aside if it covers Confirm.",
-      "controlsZh": "点击 Start，阅读说明后点击 Ready。数字比猜测大时选 Higher，比猜测小时选 Lower，猜中时选 Confirm。Back To Menu 返回标题画面。如果吉祥物遮住 Confirm，可将它拖到一旁。"
+      "controlsZh": "点击 Start，阅读说明后点击 Ready。数字比猜测大时选 Higher，比猜测小时选 Lower，猜中时选 Confirm。Back To Menu 返回标题画面。如果吉祥物遮住 Confirm，可将它拖到一旁。",
+      "playUrl": "https://itch.io/embed-upload/20797350?color=333333"
     },
     {
       "id": "pixel-adventure",

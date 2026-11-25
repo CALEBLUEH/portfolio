@@ -4,7 +4,7 @@ Website: https://caleblueh.github.io/portfolio/
 
 This repository is the editable source for the public portfolio. The current
 release includes C++ Snake Game, Tic Tac Toe, OpenGL Space Shooter and the
-itch.io-hosted RollerBall360 player. Other Unity project pages are placeholders
+itch.io-hosted RollerBall360 and YunYun Number Wizard players. Other Unity pages are placeholders
 until their itch.io players are connected.
 Visual Production is intentionally empty for now.
 
@@ -83,3 +83,29 @@ Verify the embed URL after replacing the upload. If the upload ID changes,
 update RollerBall360 playUrl in site/site-data.js and push this repository.
 Website text/layout changes only need the normal GitHub Desktop commit/push.
 No Unity rebuild is needed for those changes.
+
+## YunYun Number Wizard on itch.io
+
+Game page: https://caleb-lueh.itch.io/yunyun-number-wizard
+
+The tutorial uses the supported Game Embed from itch.io (upload 20797350).
+The canvas stays 16:9; the complete player also includes its toolbar, note and
+itch.io footer. It intentionally has no audio. Raw Unity source is not stored
+in this repository. Update the existing itch.io project for game rebuilds,
+verify its embed ID, and update site/site-data.js if that ID changes.
+
+## What repository edits change
+
+Everything committed here is public. site/ contains the deployed HTML, CSS,
+JavaScript and public assets. Editing those files and pushing main updates the
+website. Changes to files outside site/ are not website content, although the
+Pages workflow controls publication. Local edits alone are not published.
+The three C++ games are browser adaptations with readable JavaScript; their
+original Visual Studio projects are separate. Unity Web files are compiled
+code and assets hosted on itch.io; they are downloadable by a browser and are
+not a way to keep all shipped game logic or assets secret.
+
+RollerBall360 alone has motionSensors enabled in site-data.js. The website
+delegates accelerometer/gyroscope access to its itch.io frames. The Android
+Chrome tilt issue remains unresolved after the permission correction and is left for later at the user's request. Native Android and
+Web builds use different sensor paths.
