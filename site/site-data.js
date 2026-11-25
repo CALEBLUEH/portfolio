@@ -110,16 +110,17 @@ window.PORTFOLIO_DATA = {
       "title": "Floor is Lava",
       "group": "projects",
       "kind": "Unity · 3D Action",
-      "playerRatio": "1280 / 825",
+      "playerRatio": "1280 / 740",
       "unityAspect": "16:9",
       "inputHint": "Desktop keyboard and mouse required. Large game download: approximately 282 MB.",
       "inputHintZh": "需要电脑键盘与鼠标。首次游戏下载约 282 MB。",
-      "playerHint": "Mute, Fullscreen and Restart are above the game. Hold Esc for about 2 seconds to exit fullscreen when Keyboard Lock is supported and allowed or releases the mouse; the game also uses Esc for pause. Click the game to regain control.",
-      "playerHintZh": "游戏上方提供 Mute、Fullscreen 与 Restart。Esc 可退出全屏或释放鼠标，游戏也使用 Esc 暂停。点击游戏可重新启用操作。",
+      "playerHint": "Hosted on itch.io and playable here on desktop. Mute, Fullscreen, Restart and Credits are above the game. Tap Esc to pause or release the mouse; hold Esc for about 2 seconds to exit fullscreen when Keyboard Lock is supported and allowed. Click the game to regain mouse control.",
+      "playerHintZh": "由 itch.io 托管，可在此使用电脑游玩。游戏上方提供 Mute、Fullscreen、Restart 与 Credits。短按 Esc 暂停或释放鼠标；支持并允许 Keyboard Lock 时，按住 Esc 约 2 秒退出全屏。点击游戏可重新启用鼠标操作。",
       "overview": "A 3D hazard-dodging game with an elevator level-selection hub. Explore the tutorial and take on Survival, Boss, Laser, Memory Grid and Pong challenges, each combining movement with different arena mechanics.",
       "overviewZh": "一款通过电梯大厅选择关卡的 3D 危险躲避游戏。完成教程，挑战 Survival、Boss、Laser、Memory Grid 与 Pong，在不同场地机制中运用移动技巧。",
       "controls": "Press any key or click to leave the title screen. In the elevator, click the game to look around with the mouse, aim at a floor button and left-click to select; press Enter to travel. WASD / arrow keys: move. Shift: sprint. Space: jump. Left click: interact, or aim and shoot in Survival. Enter / Space: confirm level introductions. Esc: pause. Follow each level’s on-screen instructions.",
-      "controlsZh": "按任意键或点击离开标题画面。在电梯内点击游戏以使用鼠标环顾，瞄准楼层按钮并点击鼠标左键选择，按 Enter 前往。WASD / 方向键：移动。Shift：冲刺。Space：跳跃。鼠标左键：互动，或在 Survival 中瞄准射击。Enter / Space：确认关卡介绍。Esc：暂停。各关卡的具体规则请参照画面说明。"
+      "controlsZh": "按任意键或点击离开标题画面。在电梯内点击游戏以使用鼠标环顾，瞄准楼层按钮并点击鼠标左键选择，按 Enter 前往。WASD / 方向键：移动。Shift：冲刺。Space：跳跃。鼠标左键：互动，或在 Survival 中瞄准射击。Enter / Space：确认关卡介绍。Esc：暂停。各关卡的具体规则请参照画面说明。",
+      "playUrl": "https://itch.io/embed-upload/20811710?color=333333"
     },
     {
       "id": "defender-of-independence",

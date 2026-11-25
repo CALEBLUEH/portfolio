@@ -4,7 +4,7 @@ Website: https://caleblueh.github.io/portfolio/
 
 This repository is the editable source for the public portfolio. The current
 release includes C++ Snake Game, Tic Tac Toe, OpenGL Space Shooter and the
-itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure and The Assignment players. Other Unity pages are placeholders
+itch.io-hosted RollerBall360, YunYun Number Wizard, Pixel Adventure, The Assignment and Floor is Lava players. Other Unity pages are placeholders
 until their itch.io players are connected.
 Visual Production is intentionally empty for now.
 
@@ -185,3 +185,22 @@ The user confirmed short-Escape and long-Escape behavior across the currently
 published games during the local preview check on 2026-11-25.
 
 Reference: https://developer.chrome.com/docs/capabilities/web-apis/keyboard-lock
+
+## Floor is Lava on itch.io
+
+Game page: https://caleb-lueh.itch.io/floor-is-lava
+
+Supported Game Embed: https://itch.io/embed-upload/20811710?color=333333
+Offered iframe: 1280 by 740. The actual game canvas remains 16:9, intended for
+desktop keyboard and mouse. First download is approximately 282 MB.
+
+The tested split-data player is preserved. All four Unity payload hashes match
+the local import and the provided Web export; no Unity rebuild or source changes
+were made. Existing pointer-lock denial handling and repaired lighting remain
+in the shipped runtime. The player retains Credits and the identified CC BY 4.0
+model attribution. No raw Unity source or large build files are in this repo.
+
+To update gameplay, rebuild Unity Web and update this itch.io project. Verify
+the offered embed URL afterward; if the upload ID changes, update playUrl here
+and push the portfolio. The shared portfolio hold-Escape fullscreen controller
+also covers this game; direct itch.io fullscreen is controlled by itch.io.
